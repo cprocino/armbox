@@ -1,23 +1,2 @@
-# CPyProjectTemplate
-for this project we just needed to make a led blink using python
-this project was very simple as it wwas the first project of the year so all we needed was the arduino and the computer
-here is the code i used:
-import board
-import neopixel
-import time
-
-dot = neopixel.NeoPixel(board.NEOPIXEL, 1)
-dot.brightness = 0.5 
-
-
-while True:
-    b=25
-    g=0
-    r=25
-    dot.fill((b,g, r))
-    time.sleep(1)
-    dot.fill((0,0,0))
-    time.sleep(1)
-    print("Make it green")
-
-I didnt have any real problems this project, just had to set up all the accounts and downloads.
+# robot arm
+For this project we had to create a robot arm that could pick up and move an object. Chris and nixon created a box with robot arm that would pick up a small ball and drop it into a container that would eventualy shoot it out. Our first challenge was design which we solved by our proof of concept box, then the actual creation took over in import. 
