@@ -16,3 +16,10 @@ For this project we had to create a robot arm that could pick up and move an obj
 ![WIN_20230130_15_17_54_Pro](https://user-images.githubusercontent.com/71406784/216708034-c23eb64a-8e26-4019-b3c1-0d917cfd0118.jpg)
 
 ![WIN_20230130_15_18_06_Pro](https://user-images.githubusercontent.com/71406784/216708037-6b1949b3-0ff8-4635-b631-1ec3dd6b0e2e.jpg)
+
+
+
+
+
+
+the code for the project was relatively simple as all we needed to do was have two servos fire with one click of a button. Very complex stuff for me and nixon but we were smart enough to ask for help. Huge thanks to Graham Gilbert-schroeer for a lot of help with the code. the code is as follows. 
