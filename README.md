@@ -1,6 +1,8 @@
 # robot arm
 For this project we had to create a robot arm that could pick up and move an object. Chris and nixon created a box with robot arm that would pick up a small ball and drop it into a container that would eventualy shoot it out. Our first challenge was design which we solved by our proof of concept box, then the actual creation took over in import. 
 
+For our planning we really only had a rough idea of a plan per say. We knew we had to be done ny valentines day anf that was are deadline to finish. for the first week we decided to get a rough outline of what we wanted to do and how to do it. The next couple of weeks would just be making the project and doing cad stuff for the most part with me doing the cade and chris making a way to pickup the ball. we then started fabricating and doing code as it came togheter which took lonmger than we thought it would take for sure. For the final week we just documented and finished our project and got the documentation or the majority of it done.
+
 ![WIN_20230130_15_15_34_Pro](https://user-images.githubusercontent.com/71406784/216708005-1a48c74b-902f-4250-b6ba-4a320e8df95a.jpg)
 
 ![WIN_20230130_15_16_32_Pro](https://user-images.githubusercontent.com/71406784/216708013-ea3af834-308b-46c2-a769-1af261489e62.jpg)
