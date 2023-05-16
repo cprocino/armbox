@@ -13,10 +13,6 @@ For this project we had to create a robot arm that could pick up and move an obj
 
 ![WIN_20230130_15_17_23_Pro](https://user-images.githubusercontent.com/71406784/216708029-d1aba0f0-2a14-448c-81c1-5dd367c8cbf8.jpg)
 
-![WIN_20230130_15_17_54_Pro](https://user-images.githubusercontent.com/71406784/216708034-c23eb64a-8e26-4019-b3c1-0d917cfd0118.jpg)
-
-![WIN_20230130_15_18_06_Pro](https://user-images.githubusercontent.com/71406784/216708037-6b1949b3-0ff8-4635-b631-1ec3dd6b0e2e.jpg)
-
 
 ![Screenshot 2023-03-10 151436](https://user-images.githubusercontent.com/71406784/224419123-5a04b894-4155-4c1d-9c21-99cb2b80ea5a.png)
 
