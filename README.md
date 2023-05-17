@@ -24,64 +24,64 @@ Making the project itself was definitely no easy task to say the least. The onsh
 
 the code for the project was relatively simple as all we needed to do was have two servos fire with one click of a button. Very complex stuff for me and nixon but we were smart enough to ask for help. Huge thanks to Graham Gilbert-schroeer for a lot of help with the code. the code is as follows:
 
-  #include <Arduino.h>
+    #include <Arduino.h>
 
-  #include <Servo.h>
-
-
-  Servo Myservo1;
-
-  Servo Myservo2;
-
-  int SERVO_PIN1 = 3;
-
-  int SERVO_PIN2 = 5;
-
-  int ServoButton = 4;
+   #include <Servo.h>
 
 
-  int dropTime = 2000;
+   Servo Myservo1;
+
+    Servo Myservo2;
+
+    int SERVO_PIN1 = 3;
+
+    int SERVO_PIN2 = 5;
+
+    int ServoButton = 4;
 
 
-  void setup() {
+   int dropTime = 2000;
 
-    Serial.begin(9600);
+
+    void setup() {
+
+      Serial.begin(9600);
   
-    Myservo1.attach(SERVO_PIN1);
+      Myservo1.attach(SERVO_PIN1);
+    
+      Myservo2.attach(SERVO_PIN2);
   
-    Myservo2.attach(SERVO_PIN2);
-  
-  }
+    }
 
-  void loop() {
+     void loop() {
 
-    Serial.println(digitalRead(ServoButton));
+      Serial.println(digitalRead(ServoButton));
   
-    if (digitalRead(ServoButton) == 1) {
+     if (digitalRead(ServoButton) == 1) {
   
-      Myservo1.write(180);
+       Myservo1.write(180);
     
-      delay(1000);
+       delay(1000);
     
-      Myservo2.write(180);
+       Myservo2.write(180);
     
-       delay(dropTime);
+        delay(dropTime);
     
-      Myservo2.write(0);
+       Myservo2.write(0);
     
-      delay(1000);
+        delay(1000);
     
-      Myservo1.write(0);
-    
-   }
-  
-    else{
-  
-      Serial.println("No");
+       Myservo1.write(0);
     
     }
   
-    delay(500);
+      else{
   
-  }
-
+        Serial.println("No");
+    
+     }
+  
+      delay(500);
+  
+   }
+  
