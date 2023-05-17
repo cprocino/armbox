@@ -26,10 +26,10 @@ the code for the project was relatively simple as all we needed to do was have t
 
     #include <Arduino.h>
 
-   #include <Servo.h>
+    #include <Servo.h>
 
 
-   Servo Myservo1;
+    Servo Myservo1;
 
     Servo Myservo2;
 
@@ -40,10 +40,10 @@ the code for the project was relatively simple as all we needed to do was have t
     int ServoButton = 4;
 
 
-   int dropTime = 2000;
+     int dropTime = 2000;
 
 
-    void setup() {
+     void setup() {
 
       Serial.begin(9600);
   
@@ -51,13 +51,13 @@ the code for the project was relatively simple as all we needed to do was have t
     
       Myservo2.attach(SERVO_PIN2);
   
-    }
+     }
 
-     void loop() {
+       void loop() {
 
       Serial.println(digitalRead(ServoButton));
   
-     if (digitalRead(ServoButton) == 1) {
+      if (digitalRead(ServoButton) == 1) {
   
        Myservo1.write(180);
     
