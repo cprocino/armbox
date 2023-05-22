@@ -25,12 +25,16 @@ weeks 3-4 building and coding
 
 weeks 5-final: tuning and documentation
 
+Our planning would be a bit of wishful thinking as I (chris) would get sick twice during this project. Nixon would valiantly contiune working and complete the majority of the construction of the actual box and arm. and when chris returned they were able to finnish the project quickly. 
+
 
 
 
 ## visuals
 
 ![WIN_20230130_15_15_34_Pro](https://user-images.githubusercontent.com/71406784/216708005-1a48c74b-902f-4250-b6ba-4a320e8df95a.jpg)
+
+the rubberbands on the grabber proved to be better than string in picking up the balls 
 
 ![WIN_20230130_15_16_32_Pro](https://user-images.githubusercontent.com/71406784/216708013-ea3af834-308b-46c2-a769-1af261489e62.jpg)
 
@@ -116,4 +120,5 @@ the code for the project was relatively simple as all we needed to do was have t
    
    
  While this code was simple it achivied its goal of picking up the ball and putting it in another location.
+ This code was finiky and could have been better but it achieved its goal and was able to pick up the ball. 
   
