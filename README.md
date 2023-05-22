@@ -55,24 +55,24 @@ the code for the project was relatively simple as all we needed to do was have t
 
     #include <Arduino.h>
 
-    #include <Servo.h>
+    #include <Servo.h> // setups 
 
 
     Servo Myservo1;
 
     Servo Myservo2;
 
-    int SERVO_PIN1 = 3;
+    int SERVO_PIN1 = 3;  // pin setups 
 
     int SERVO_PIN2 = 5;
 
-    int ServoButton = 4;
+    int ServoButton = 4; // servo pin set up
 
 
-     int dropTime = 2000;
+     int dropTime = 2000; // delay time
 
 
-     void setup() {
+     void setup() {  // starting up the code
 
       Serial.begin(9600);
   
@@ -86,31 +86,31 @@ the code for the project was relatively simple as all we needed to do was have t
 
       Serial.println(digitalRead(ServoButton));
   
-      if (digitalRead(ServoButton) == 1) {
+      if (digitalRead(ServoButton) == 1) {  // if statement to setup the code
   
        Myservo1.write(180);
     
-       delay(1000);
+       delay(1000);  // delay time 
     
        Myservo2.write(180);
     
-        delay(dropTime);
+        delay(dropTime); // delay time from the int that was set up
     
        Myservo2.write(0);
     
-        delay(1000);
+        delay(1000);  // delay time 
     
        Myservo1.write(0);
     
     }
   
-      else{
+      else{   // if it breaks 
   
         Serial.println("No");
     
      }
   
-      delay(500);
+      delay(500);  // so it doesnt break all the time 
   
    }
    
