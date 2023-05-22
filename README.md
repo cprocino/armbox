@@ -1,10 +1,10 @@
 # Robot Arm
 
 
-* [intro](##intro)
-* [planning](##planning)
-* [visuals](##visuals)
-* [code](##code)
+* [intro](#intro)
+* [planning](#planning)
+* [visuals](#visuals)
+* [code](#code)
 * [reflection](#reflection)
 
 ---
@@ -14,8 +14,19 @@
 
 For this project we had to create a robot arm that could pick up and move an object. Chris and nixon created a box with robot arm that would pick up a small ball and drop it into a container that would eventualy shoot it out. Our first challenge was design which we solved by our proof of concept box, then the actual creation took over in import. We also would end scratching the shooting box part as that just wouldnt work and would take way to long.
 
+
 ## planning 
-For our planning we really only had a rough idea of a plan per say. We knew we had to be done ny valentines day anf that was are deadline to finish. for the first week we decided to get a rough outline of what we wanted to do and how to do it. The next couple of weeks would just be making the project and doing cad stuff for the most part with me doing the cade and chris making a way to pickup the ball. we then started fabricating and doing code as it came togheter which took lonmger than we thought it would take for sure. For the final week we just documented and finished our project and got the documentation or the majority of it done.
+For our planning we really only had a rough idea of a plan per say. We knew we had to be done ny valentines day anf that was are deadline to finish. for the first week we decided to get a rough outline of what we wanted to do and how to do it. The next couple of weeks would just be making the project and doing cad stuff for the most part with me doing the cad and chris making a way to pickup the ball. we then started fabricating and doing code as it came togheter which took longer than we thought it would take for sure. For the final week we just documented and finished our project and got the documentation or the majority of it done.
+our loose schedual was as follows:
+
+weeks 1-2: planing and expirimenting 
+
+weeks 3-4 building and coding
+
+weeks 5-final: tuning and documentation
+
+
+
 
 ## visuals
 
